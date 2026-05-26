@@ -114,11 +114,41 @@ CMakeFiles/hft_engine.dir/src/core/order_book.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hft_engine.dir/src/core/order_book.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shreyas/multilayer_network/hft-engine/src/core/order_book.cpp -o CMakeFiles/hft_engine.dir/src/core/order_book.cpp.s
 
+CMakeFiles/hft_engine.dir/src/protocols/ouch_encoder.cpp.o: CMakeFiles/hft_engine.dir/flags.make
+CMakeFiles/hft_engine.dir/src/protocols/ouch_encoder.cpp.o: /Users/shreyas/multilayer_network/hft-engine/src/protocols/ouch_encoder.cpp
+CMakeFiles/hft_engine.dir/src/protocols/ouch_encoder.cpp.o: CMakeFiles/hft_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shreyas/multilayer_network/hft-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hft_engine.dir/src/protocols/ouch_encoder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hft_engine.dir/src/protocols/ouch_encoder.cpp.o -MF CMakeFiles/hft_engine.dir/src/protocols/ouch_encoder.cpp.o.d -o CMakeFiles/hft_engine.dir/src/protocols/ouch_encoder.cpp.o -c /Users/shreyas/multilayer_network/hft-engine/src/protocols/ouch_encoder.cpp
+
+CMakeFiles/hft_engine.dir/src/protocols/ouch_encoder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hft_engine.dir/src/protocols/ouch_encoder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shreyas/multilayer_network/hft-engine/src/protocols/ouch_encoder.cpp > CMakeFiles/hft_engine.dir/src/protocols/ouch_encoder.cpp.i
+
+CMakeFiles/hft_engine.dir/src/protocols/ouch_encoder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hft_engine.dir/src/protocols/ouch_encoder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shreyas/multilayer_network/hft-engine/src/protocols/ouch_encoder.cpp -o CMakeFiles/hft_engine.dir/src/protocols/ouch_encoder.cpp.s
+
+CMakeFiles/hft_engine.dir/src/protocols/fix_session.cpp.o: CMakeFiles/hft_engine.dir/flags.make
+CMakeFiles/hft_engine.dir/src/protocols/fix_session.cpp.o: /Users/shreyas/multilayer_network/hft-engine/src/protocols/fix_session.cpp
+CMakeFiles/hft_engine.dir/src/protocols/fix_session.cpp.o: CMakeFiles/hft_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/shreyas/multilayer_network/hft-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hft_engine.dir/src/protocols/fix_session.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hft_engine.dir/src/protocols/fix_session.cpp.o -MF CMakeFiles/hft_engine.dir/src/protocols/fix_session.cpp.o.d -o CMakeFiles/hft_engine.dir/src/protocols/fix_session.cpp.o -c /Users/shreyas/multilayer_network/hft-engine/src/protocols/fix_session.cpp
+
+CMakeFiles/hft_engine.dir/src/protocols/fix_session.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hft_engine.dir/src/protocols/fix_session.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shreyas/multilayer_network/hft-engine/src/protocols/fix_session.cpp > CMakeFiles/hft_engine.dir/src/protocols/fix_session.cpp.i
+
+CMakeFiles/hft_engine.dir/src/protocols/fix_session.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hft_engine.dir/src/protocols/fix_session.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shreyas/multilayer_network/hft-engine/src/protocols/fix_session.cpp -o CMakeFiles/hft_engine.dir/src/protocols/fix_session.cpp.s
+
 # Object files for target hft_engine
 hft_engine_OBJECTS = \
 "CMakeFiles/hft_engine.dir/src/main.cpp.o" \
 "CMakeFiles/hft_engine.dir/src/network/kernel_bypass.cpp.o" \
-"CMakeFiles/hft_engine.dir/src/core/order_book.cpp.o"
+"CMakeFiles/hft_engine.dir/src/core/order_book.cpp.o" \
+"CMakeFiles/hft_engine.dir/src/protocols/ouch_encoder.cpp.o" \
+"CMakeFiles/hft_engine.dir/src/protocols/fix_session.cpp.o"
 
 # External object files for target hft_engine
 hft_engine_EXTERNAL_OBJECTS =
@@ -126,9 +156,11 @@ hft_engine_EXTERNAL_OBJECTS =
 hft_engine: CMakeFiles/hft_engine.dir/src/main.cpp.o
 hft_engine: CMakeFiles/hft_engine.dir/src/network/kernel_bypass.cpp.o
 hft_engine: CMakeFiles/hft_engine.dir/src/core/order_book.cpp.o
+hft_engine: CMakeFiles/hft_engine.dir/src/protocols/ouch_encoder.cpp.o
+hft_engine: CMakeFiles/hft_engine.dir/src/protocols/fix_session.cpp.o
 hft_engine: CMakeFiles/hft_engine.dir/build.make
 hft_engine: CMakeFiles/hft_engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shreyas/multilayer_network/hft-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable hft_engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/shreyas/multilayer_network/hft-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable hft_engine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hft_engine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

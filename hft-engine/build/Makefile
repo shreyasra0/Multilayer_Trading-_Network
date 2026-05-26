@@ -201,6 +201,54 @@ src/network/kernel_bypass.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hft_engine.dir/build.make CMakeFiles/hft_engine.dir/src/network/kernel_bypass.cpp.s
 .PHONY : src/network/kernel_bypass.cpp.s
 
+src/protocols/fix_session.o: src/protocols/fix_session.cpp.o
+.PHONY : src/protocols/fix_session.o
+
+# target to build an object file
+src/protocols/fix_session.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hft_engine.dir/build.make CMakeFiles/hft_engine.dir/src/protocols/fix_session.cpp.o
+.PHONY : src/protocols/fix_session.cpp.o
+
+src/protocols/fix_session.i: src/protocols/fix_session.cpp.i
+.PHONY : src/protocols/fix_session.i
+
+# target to preprocess a source file
+src/protocols/fix_session.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hft_engine.dir/build.make CMakeFiles/hft_engine.dir/src/protocols/fix_session.cpp.i
+.PHONY : src/protocols/fix_session.cpp.i
+
+src/protocols/fix_session.s: src/protocols/fix_session.cpp.s
+.PHONY : src/protocols/fix_session.s
+
+# target to generate assembly for a file
+src/protocols/fix_session.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hft_engine.dir/build.make CMakeFiles/hft_engine.dir/src/protocols/fix_session.cpp.s
+.PHONY : src/protocols/fix_session.cpp.s
+
+src/protocols/ouch_encoder.o: src/protocols/ouch_encoder.cpp.o
+.PHONY : src/protocols/ouch_encoder.o
+
+# target to build an object file
+src/protocols/ouch_encoder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hft_engine.dir/build.make CMakeFiles/hft_engine.dir/src/protocols/ouch_encoder.cpp.o
+.PHONY : src/protocols/ouch_encoder.cpp.o
+
+src/protocols/ouch_encoder.i: src/protocols/ouch_encoder.cpp.i
+.PHONY : src/protocols/ouch_encoder.i
+
+# target to preprocess a source file
+src/protocols/ouch_encoder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hft_engine.dir/build.make CMakeFiles/hft_engine.dir/src/protocols/ouch_encoder.cpp.i
+.PHONY : src/protocols/ouch_encoder.cpp.i
+
+src/protocols/ouch_encoder.s: src/protocols/ouch_encoder.cpp.s
+.PHONY : src/protocols/ouch_encoder.s
+
+# target to generate assembly for a file
+src/protocols/ouch_encoder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hft_engine.dir/build.make CMakeFiles/hft_engine.dir/src/protocols/ouch_encoder.cpp.s
+.PHONY : src/protocols/ouch_encoder.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +267,12 @@ help:
 	@echo "... src/network/kernel_bypass.o"
 	@echo "... src/network/kernel_bypass.i"
 	@echo "... src/network/kernel_bypass.s"
+	@echo "... src/protocols/fix_session.o"
+	@echo "... src/protocols/fix_session.i"
+	@echo "... src/protocols/fix_session.s"
+	@echo "... src/protocols/ouch_encoder.o"
+	@echo "... src/protocols/ouch_encoder.i"
+	@echo "... src/protocols/ouch_encoder.s"
 .PHONY : help
 
 
