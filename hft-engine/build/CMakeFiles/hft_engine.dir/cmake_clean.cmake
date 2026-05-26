@@ -5,8 +5,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/hft_engine.dir/src/main.cpp.o.d"
   "CMakeFiles/hft_engine.dir/src/network/kernel_bypass.cpp.o"
   "CMakeFiles/hft_engine.dir/src/network/kernel_bypass.cpp.o.d"
-  "CMakeFiles/hft_engine.dir/src/protocols/sbe_decoder.cpp.o"
-  "CMakeFiles/hft_engine.dir/src/protocols/sbe_decoder.cpp.o.d"
   "hft_engine"
   "hft_engine.pdb"
 )

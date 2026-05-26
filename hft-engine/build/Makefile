@@ -201,30 +201,6 @@ src/network/kernel_bypass.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hft_engine.dir/build.make CMakeFiles/hft_engine.dir/src/network/kernel_bypass.cpp.s
 .PHONY : src/network/kernel_bypass.cpp.s
 
-src/protocols/sbe_decoder.o: src/protocols/sbe_decoder.cpp.o
-.PHONY : src/protocols/sbe_decoder.o
-
-# target to build an object file
-src/protocols/sbe_decoder.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hft_engine.dir/build.make CMakeFiles/hft_engine.dir/src/protocols/sbe_decoder.cpp.o
-.PHONY : src/protocols/sbe_decoder.cpp.o
-
-src/protocols/sbe_decoder.i: src/protocols/sbe_decoder.cpp.i
-.PHONY : src/protocols/sbe_decoder.i
-
-# target to preprocess a source file
-src/protocols/sbe_decoder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hft_engine.dir/build.make CMakeFiles/hft_engine.dir/src/protocols/sbe_decoder.cpp.i
-.PHONY : src/protocols/sbe_decoder.cpp.i
-
-src/protocols/sbe_decoder.s: src/protocols/sbe_decoder.cpp.s
-.PHONY : src/protocols/sbe_decoder.s
-
-# target to generate assembly for a file
-src/protocols/sbe_decoder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hft_engine.dir/build.make CMakeFiles/hft_engine.dir/src/protocols/sbe_decoder.cpp.s
-.PHONY : src/protocols/sbe_decoder.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -243,9 +219,6 @@ help:
 	@echo "... src/network/kernel_bypass.o"
 	@echo "... src/network/kernel_bypass.i"
 	@echo "... src/network/kernel_bypass.s"
-	@echo "... src/protocols/sbe_decoder.o"
-	@echo "... src/protocols/sbe_decoder.i"
-	@echo "... src/protocols/sbe_decoder.s"
 .PHONY : help
 
 
