@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -march=native -ffast-math -flto -DNDEBUG -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/hft_engine.dir/src/main.cpp.o CMakeFiles/hft_engine.dir/src/network/kernel_bypass.cpp.o CMakeFiles/hft_engine.dir/src/protocols/sbe_decoder.cpp.o CMakeFiles/hft_engine.dir/src/core/order_book.cpp.o -o hft_engine  -lpthread
